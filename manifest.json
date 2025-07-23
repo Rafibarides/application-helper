@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Job Application Helper",
+  "version": "1.0",
+  "description": "Quick access to portfolio links, resumes, and contact info for job applications",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Job Application Helper"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "tabs"
+  ],
+  "icons": {
+    "16": "favicon-icon.png",
+    "48": "favicon-icon.png",
+    "128": "favicon-icon.png"
+  }
+} 

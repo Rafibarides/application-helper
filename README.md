@@ -1,6 +1,6 @@
 # Job Application Helper
 
-A simple, minimal web tool to streamline job application workflows with one-click copy functionality for contact info, portfolios, and resumes.
+A tool to streamline job application workflows with one-click copy functionality for contact info, portfolios, and resumes.
 
 ## Features
 
@@ -9,23 +9,59 @@ A simple, minimal web tool to streamline job application workflows with one-clic
 - **Portfolio Links**: Job-type specific portfolio links (Software/Dev, Product/Design, Creative Tech)
 - **Resume Management**: Quick access to local files and Google Docs for editing
 - **Responsive Design**: Optimized for small window sizes
+- **Dynamic Data**: All content is loaded from `Data.json` for easy customization
 
-## Deployment to GitHub Pages
+## Installation as Chrome Extension
 
-1. Push this repository to GitHub
-2. Go to your repository settings
-3. Navigate to "Pages" in the left sidebar
-4. Under "Source", select "Deploy from a branch"
-5. Choose "main" branch and "/ (root)" folder
-6. Click "Save"
-7. Your site will be available at `https://[username].github.io/[repository-name]`
+1. **Download or Clone** this repository to your local machine
+2. **Open Chrome** and navigate to `chrome://extensions/`
+3. **Enable Developer Mode** by toggling the switch in the top-right corner
+4. **Click "Load unpacked"** and select the `application-helper` folder
+5. **Pin the extension** to your toolbar for easy access
 
-## Local Usage
+The extension will appear as a popup when clicked, giving you quick access to all your job application data.
 
-Simply open `index.html` in your browser to use the tool locally.
+## Customization
+
+This tool uses **dynamic data loading** from `Data.json`, making it incredibly easy to customize:
+
+1. **Fork this repository** to your own GitHub account
+2. **Edit `Data.json`** with your personal information:
+   - Update contact details (email, phone, city)
+   - Change portfolio URLs and labels
+   - Modify bio text
+   - Update resume file paths and Google Docs links
+3. **Reload the extension** in Chrome (or refresh the web page) to see your changes
+
+### Example Data.json Structure:
+```json
+{
+  "contact": {
+    "email": "your-email@example.com",
+    "phone": "your-phone-number",
+    "city": "Your City, State"
+  },
+  "portfolio": {
+    "software": {
+      "url": "https://your-portfolio.com/software",
+      "label": "Software/Dev",
+      "icon": "fas fa-code"
+    }
+  }
+}
+```
+
+## Usage
+
+### Web Version
+Open `index.html` in your browser for a full-page version of the tool.
+
+### Extension Version
+Click the extension icon in your Chrome toolbar for a compact popup version.
 
 ## Notes
 
 - The "Finder" buttons will show file paths when clicked (local file access is restricted in browsers)
 - All copy functionality works with modern browsers
-- Tool is optimized for small window sizes for easy use alongside application forms 
+- Tool is optimized for small window sizes for easy use alongside application forms
+- No code changes needed - just update `Data.json` to customize all content 

@@ -1,0 +1,44 @@
+{
+  "contact": {
+    "email": "rafibaridesmusic@gmail.com",
+    "phone": "9175997448", 
+    "city": "Brooklyn, NY"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/rafibarides/"
+  },
+  "portfolio": {
+    "software": {
+      "url": "https://rafi-barides.com/software",
+      "label": "Software/Dev",
+      "icon": "fas fa-code"
+    },
+    "product": {
+      "url": "https://rafi-barides.com/product", 
+      "label": "Product/Design",
+      "icon": "fas fa-palette"
+    },
+    "creative": {
+      "url": "https://rafi-barides.com/",
+      "label": "Creative Tech", 
+      "icon": "fas fa-lightbulb"
+    }
+  },
+  "bio": "I'm a multidisciplinary creative with a foundation in UI/UX, full-stack development, and a passion for turning raw ideas into polished, user-centered digital experiences. From self-publishing albums to launching apps, I thrive at the intersection of design and technology. I've collaborated with artists, engineers, and entrepreneurs to ship products seen on billboards, in magazines, and on major stages like MSG and Broadway. My training at the Marcy Lab School sharpened my skills in product design, JavaScript, and computer science fundamentals. I bring obsessive attention to detail, strong cross-functional instincts, and a relentless drive to create what doesn't yet exist.",
+  "resumes": [
+    {
+      "id": "product-design",
+      "title": "Product Design & Creative Tech Resume",
+      "description": "For product design, UI/UX, and creative technologist roles",
+      "filePath": "/Users/ralphbarides/Desktop/Personal/Job Application/Resume/Resumes/_barides_rafi_resume_PD.pdf",
+      "editUrl": "https://docs.google.com/document/d/131jI1x7anwxL1M7-viAUkNI8Ev5UGLLJ4P1cEfBcps0/edit?usp=sharing"
+    },
+    {
+      "id": "software-development", 
+      "title": "Software Development Resume",
+      "description": "For software engineering and frontend development roles",
+      "filePath": "/Users/ralphbarides/Desktop/Personal/Job Application/Resume/Resumes/_barides_rafi-resume_SWD.pdf",
+      "editUrl": "https://docs.google.com/document/d/1NO4tG4eHrDlqGhtoDBd4x_uxfrKdzzNgvHtlitWwxUQ/edit?usp=sharing"
+    }
+  ]
+}
